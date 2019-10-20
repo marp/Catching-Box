@@ -15,7 +15,7 @@ public class LevelManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F12))
+        if (Input.GetKeyDown(KeyCode.F12)) //enable or disable fullscreen on F12
         {
             if (Screen.fullScreen)
             {

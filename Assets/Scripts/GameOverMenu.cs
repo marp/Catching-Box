@@ -19,7 +19,7 @@ public class GameOverMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = engine.GetComponent<Engine>().score.ToString();
-        TimerTextGO.text = TimerText.text;
+        scoreText.text = engine.GetComponent<Engine>().score.ToString(); //shows score count on game over screen
+        TimerTextGO.text = TimerText.text; //shows time on game over screen
     }
 }
